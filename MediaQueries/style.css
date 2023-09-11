@@ -1,0 +1,285 @@
+main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+
+#firstcat {
+    width: 270px;
+    height: 370px;
+    border: 2px solid gainsboro;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
+#name-date1 {
+    background-color: rgb(165, 159, 159);
+    color: rgba(13, 13, 13, 0.8);
+    font-family: 'Lucida Grande', sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 11px;
+    width: 250px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+      
+}
+
+#name-date1 p {
+    margin-left: 8px;
+}
+
+#name-date1 span {
+    font-size: 10px;
+    color: rgb(227, 225, 225);
+}
+
+.dots {
+   margin-left: 118px;
+}
+
+button {
+    width: 34px;
+    height: 34px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    justify-content: left;
+}
+
+
+
+#image-cat1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    border: none;
+}
+
+
+#description1 {
+    background: linear-gradient(rgb(165, 159, 159), rgb(237, 231, 231));
+    color: rgb(0, 0, 0, 0.8);
+    font-family: Arial, sans-serif;
+    width: 250px;
+    height: 90px;
+    padding: 10px;
+    border: none;
+}
+
+
+#description1 p {
+    line-height: 13px;
+    margin-top: 5px;
+    font-size: 11px;
+}
+
+.cloud {
+    margin-left: 2px;
+}
+
+.heart {
+    margin-left: 10px;
+}
+
+
+/*____________________________________________*/
+
+#secondcat {
+    width: 270px;
+    height: 370px;
+    border: 2px solid gainsboro;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
+#name-date2 {
+    background-color: rgb(165, 159, 159);
+    color: rgba(13, 13, 13, 0.8);
+    font-family: 'Lucida Grande', sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 11px;
+    width: 250px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+
+}
+
+#name-date2 p {
+    margin-left: 8px;
+}
+
+#name-date2 span {
+    font-size: 10px;
+    color: rgb(227, 225, 225);
+}
+
+.dots {
+    margin-left: 118px;
+}
+
+button {
+    width: 34px;
+    height: 34px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    justify-content: left;
+}
+
+
+
+#image-cat2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    border: none;
+}
+
+
+#description2 {
+    background: linear-gradient(rgb(165, 159, 159), rgb(237, 231, 231));
+    color: rgb(0, 0, 0, 0.8);
+    font-family: Arial, sans-serif;
+    width: 250px;
+    height: 90px;
+    padding: 10px;
+    border: none;
+}
+
+
+#description2 p {
+    line-height: 13px;
+    margin-top: 5px;
+    font-size: 11px;
+}
+
+.cloud {
+    margin-left: 2px;
+}
+
+.heart {
+    margin-left: 10px;
+}
+
+
+
+/*____________________________________________*/
+
+#thirdcat {
+    width: 270px;
+    height: 370px;
+    border: 2px solid gainsboro;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
+#name-date3 {
+    background-color: rgb(165, 159, 159);
+    color: rgba(13, 13, 13, 0.8);
+    font-family: 'Lucida Grande', sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 11px;
+    width: 250px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+
+}
+
+#name-date3 p {
+    margin-left: 8px;
+}
+
+#name-date3 span {
+    font-size: 10px;
+    color: rgb(227, 225, 225);
+}
+
+.dots {
+    margin-left: 118px;
+}
+
+button {
+    width: 34px;
+    height: 34px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    justify-content: left;
+}
+
+
+
+#image-cat3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    border: none;
+}
+
+
+#description3 {
+    background: linear-gradient(rgb(165, 159, 159), rgb(237, 231, 231));
+    color: rgb(0, 0, 0, 0.8);
+    font-family: Arial, sans-serif;
+    width: 250px;
+    height: 90px;
+    padding: 10px;
+    border: none;
+}
+
+
+#description3 p {
+    line-height: 13px;
+    margin-top: 5px;
+    font-size: 11px;
+}
+
+.cloud {
+    margin-left: 2px;
+}
+
+.heart {
+    margin-left: 10px;
+}
+
+
+/*___________________________________________________*/
+
+
+@media (max-width: 375px) {
+    main {
+        height: 200vh;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+}
